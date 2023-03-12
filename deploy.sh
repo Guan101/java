@@ -11,4 +11,4 @@ npm run build
 
 git add docs/.vuepress/dist
 git commit -m "dist subtree commit"
-git subtree push --prefix docs/.vuepress/dist origin page
+git subtree push --prefix docs/.vuepress/dist note page
