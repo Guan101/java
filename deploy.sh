@@ -1,10 +1,10 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-time=$(date "+%Y-%m-%d %H:%M:%S")
+time=$(date "+%Y-%m-%d")
 
  git add .
- git commit -m "$time 更新--"
+ git commit -m "$time 更新"
  git push -f git@github.com:Guan101/java.git note
 
 npm run build
